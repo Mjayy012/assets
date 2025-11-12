@@ -13,12 +13,7 @@ return [
     | using this caching library. This connection is used when another is
     | not explicitly specified when executing a given caching function.
     |
-<<<<<<< HEAD
-    | Supported: "apc", "array", "database", "file",
-    |            "memcached", "redis", "dynamodb"
-=======
     | Supported: "apc", "array", "database", "file", "memcached", "redis"
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     |
     */
 
@@ -43,10 +38,6 @@ return [
 
         'array' => [
             'driver' => 'array',
-<<<<<<< HEAD
-            'serialize' => false,
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         ],
 
         'database' => [
@@ -84,18 +75,6 @@ return [
             'connection' => 'cache',
         ],
 
-<<<<<<< HEAD
-        'dynamodb' => [
-            'driver' => 'dynamodb',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
-            'table' => env('DYNAMODB_CACHE_TABLE', 'cache'),
-            'endpoint' => env('DYNAMODB_ENDPOINT'),
-        ],
-
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     ],
 
     /*

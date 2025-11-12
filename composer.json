@@ -8,24 +8,8 @@
     ],
     "license": "MIT",
     "require": {
-<<<<<<< HEAD
-        "php": "^7.2.5|^8.0",
-        "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
-        "laravel/framework": "^7.29",
-        "laravel/tinker": "^2.5",
-        "laravel/ui": "2.4",
-        "tabuna/breadcrumbs": "*"
-    },
-    "require-dev": {
-        "facade/ignition": "^2.0",
-        "fakerphp/faker": "^1.9.1",
-        "mockery/mockery": "^1.3.1",
-        "nunomaduro/collision": "^4.3",
-        "phpunit/phpunit": "^8.5.8|^9.3.3"
-=======
         "php": "^7.1.3",
+        "bacon/bacon-qr-code": "1.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0"
@@ -37,19 +21,14 @@
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.0"
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-<<<<<<< HEAD
-        "sort-packages": true
-=======
         "sort-packages": true,
         "allow-plugins": {
             "kylekatarnls/update-helper": true
         }
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     },
     "extra": {
         "laravel": {

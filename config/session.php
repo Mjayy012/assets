@@ -14,11 +14,7 @@ return [
     | you may specify any of the other wonderful drivers provided here.
     |
     | Supported: "file", "cookie", "database", "apc",
-<<<<<<< HEAD
-    |            "memcached", "redis", "dynamodb", "array"
-=======
     |            "memcached", "redis", "array"
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     |
     */
 
@@ -35,7 +31,7 @@ return [
     |
     */
 
-    'lifetime' => env('SESSION_LIFETIME', 120),
+    'lifetime' => env('SESSION_LIFETIME', 1200),
 
     'expire_on_close' => false,
 
@@ -96,17 +92,9 @@ return [
     | Session Cache Store
     |--------------------------------------------------------------------------
     |
-<<<<<<< HEAD
-    | While using one of the framework's cache driven session backends you may
-    | list a cache store that should be used for these sessions. This value
-    | must match with one of the application's configured cache "stores".
-    |
-    | Affects: "apc", "dynamodb", "memcached", "redis"
-=======
     | When using the "apc" or "memcached" session drivers, you may specify a
     | cache store that should be used for these sessions. This value must
     | correspond with one of the application's configured cache stores.
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     |
     */
 
@@ -178,11 +166,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'secure' => env('SESSION_SECURE_COOKIE'),
-=======
     'secure' => env('SESSION_SECURE_COOKIE', false),
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 
     /*
     |--------------------------------------------------------------------------
@@ -204,15 +188,6 @@ return [
     |
     | This option determines how your cookies behave when cross-site requests
     | take place, and can be used to mitigate CSRF attacks. By default, we
-<<<<<<< HEAD
-    | will set this value to "lax" since this is a secure default value.
-    |
-    | Supported: "lax", "strict", "none", null
-    |
-    */
-
-    'same_site' => 'lax',
-=======
     | do not enable this as other CSRF protection services are in place.
     |
     | Supported: "lax", "strict"
@@ -220,6 +195,5 @@ return [
     */
 
     'same_site' => null,
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 
 ];

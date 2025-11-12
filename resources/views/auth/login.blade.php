@@ -49,22 +49,14 @@
     .welcome-title {
         font-size: 36px;
         font-weight: 600;
-<<<<<<< HEAD
         margin-bottom: 15px;
-=======
-        margin-bottom: 25px;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         color: #333;
     }
     
     .welcome-subtitle {
         font-size: 14px;
         color: #666;
-<<<<<<< HEAD
         margin-bottom: 40px;
-=======
-        margin-bottom: 50px;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     }
     
     .login-form {
@@ -74,17 +66,10 @@
     
     .form-input {
         width: 100%;
-<<<<<<< HEAD
         padding: 12px 20px;
         border: 2px solid #e0e0e0;
         border-radius: 8px;
         margin-bottom: 15px;
-=======
-        padding: 15px 20px;
-        border: 2px solid #e0e0e0;
-        border-radius: 8px;
-        margin-bottom: 20px;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         font-size: 14px;
         transition: border-color 0.3s;
         box-sizing: border-box;
@@ -109,17 +94,10 @@
     }
     
     .forgot-password {
-<<<<<<< HEAD
         font-size: 13px;
         color: #333;
         text-decoration: none;
         margin-bottom: 15px;
-=======
-        font-size: 14px;
-        color: #333;
-        text-decoration: none;
-        margin-bottom: 25px;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         display: inline-block;
     }
     
@@ -130,33 +108,21 @@
     
     .btn-signin {
         width: 100%;
-<<<<<<< HEAD
         padding: 12px;
-=======
-        padding: 15px;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         background: #6b1a1a;
         color: white;
         border: none;
         border-radius: 15px;
-<<<<<<< HEAD
         font-size: 15px;
         font-weight: 600;
         cursor: pointer;
         transition: background 0.3s;
         margin-bottom: 15px;
-=======
-        font-size: 16px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: background 0.3s;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     }
     
     .btn-signin:hover {
         background: #4a0e0e;
     }
-<<<<<<< HEAD
 
     .divider {
         display: flex;
@@ -209,8 +175,6 @@
         width: 20px;
         height: 20px;
     }
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     
     .right-logo-placeholder {
         width: 120px;
@@ -226,7 +190,6 @@
     }
     
     .system-title {
-<<<<<<< HEAD
         font-size: 32px;
         font-weight: 700;
         letter-spacing: 2px;
@@ -242,23 +205,6 @@
     .signup-text {
         font-size: 20px;
         margin-bottom: 15px;
-=======
-        font-size: 35px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        margin-bottom: 35px;
-    }
-    
-    .system-subtitle {
-        font-size: 35px;
-        font-weight: 700;
-        margin-top: -30px;
-    }
-    
-    .signup-text {
-        font-size: 22px;
-        margin-bottom: 20px;
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         font-weight: 300 !important;
         text-align: center;
     }
@@ -356,7 +302,6 @@
             <button type="submit" class="btn-signin">
                 SIGN IN
             </button>
-<<<<<<< HEAD
 
             <div class="divider">
                 <span>Sign In with</span>
@@ -371,8 +316,6 @@
                 </svg>
                 Continue with Google
             </a>
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         </form>
     </div>
     

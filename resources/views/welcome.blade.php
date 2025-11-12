@@ -103,10 +103,7 @@
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
-<<<<<<< HEAD
                     <a href="https://vapor.laravel.com">Vapor</a>
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>

@@ -46,28 +46,15 @@ return [
             'host' => 'localhost',
             'queue' => 'default',
             'retry_after' => 90,
-<<<<<<< HEAD
-            'block_for' => 0,
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         ],
 
         'sqs' => [
             'driver' => 'sqs',
-<<<<<<< HEAD
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'prefix' => env('SQS_PREFIX', 'https://sqs.us-east-1.amazonaws.com/your-account-id'),
-            'queue' => env('SQS_QUEUE', 'your-queue-name'),
-            'suffix' => env('SQS_SUFFIX'),
-            'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
-=======
             'key' => env('SQS_KEY', 'your-public-key'),
             'secret' => env('SQS_SECRET', 'your-secret-key'),
             'prefix' => env('SQS_PREFIX', 'https://sqs.us-east-1.amazonaws.com/your-account-id'),
             'queue' => env('SQS_QUEUE', 'your-queue-name'),
             'region' => env('SQS_REGION', 'us-east-1'),
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         ],
 
         'redis' => [
@@ -92,10 +79,6 @@ return [
     */
 
     'failed' => [
-<<<<<<< HEAD
-        'driver' => env('QUEUE_FAILED_DRIVER', 'database'),
-=======
->>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         'database' => env('DB_CONNECTION', 'mysql'),
         'table' => 'failed_jobs',
     ],
