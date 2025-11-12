@@ -1,7 +1,10 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+<<<<<<< HEAD
 use App\Http\Controllers\CatalogMetadataController;
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +18,7 @@ use App\Http\Controllers\CatalogMetadataController;
 
 Route::get('/', function () {
     return view('welcome');
+<<<<<<< HEAD
 });
 
 Auth::routes();
@@ -134,3 +138,6 @@ Route::get('/reports', 'ReportsController@index')->name('reports');
 
 //e-resources
 Route::get('/e_resources', 'EResourcesController@index')->name('e_resources');
+=======
+});
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399

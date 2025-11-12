@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
+=======
+<!doctype html>
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -7,7 +11,11 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
+<<<<<<< HEAD
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+=======
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 
         <!-- Styles -->
         <style>
@@ -21,7 +29,11 @@
             }
 
             .full-height {
+<<<<<<< HEAD
                 height: 100vh;  
+=======
+                height: 100vh;
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
             }
 
             .flex-center {
@@ -91,7 +103,10 @@
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
+<<<<<<< HEAD
                     <a href="https://vapor.laravel.com">Vapor</a>
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>

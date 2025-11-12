@@ -44,7 +44,10 @@ return [
         'api' => [
             'driver' => 'token',
             'provider' => 'users',
+<<<<<<< HEAD
             'hash' => false,
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         ],
     ],
 
@@ -97,6 +100,7 @@ return [
             'provider' => 'users',
             'table' => 'password_resets',
             'expire' => 60,
+<<<<<<< HEAD
             'throttle' => 60,
         ],
     ],
@@ -114,4 +118,9 @@ return [
 
     'password_timeout' => 10800,
 
+=======
+        ],
+    ],
+
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 ];

@@ -39,7 +39,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'debug' => (bool) env('APP_DEBUG', false),
+=======
+    'debug' => env('APP_DEBUG', false),
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 
     /*
     |--------------------------------------------------------------------------
@@ -191,7 +195,10 @@ return [
     'aliases' => [
 
         'App' => Illuminate\Support\Facades\App::class,
+<<<<<<< HEAD
         'Arr' => Illuminate\Support\Arr::class,
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
         'Blade' => Illuminate\Support\Facades\Blade::class,
@@ -207,7 +214,10 @@ return [
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
+<<<<<<< HEAD
         'Http' => Illuminate\Support\Facades\Http::class,
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,
@@ -222,7 +232,10 @@ return [
         'Schema' => Illuminate\Support\Facades\Schema::class,
         'Session' => Illuminate\Support\Facades\Session::class,
         'Storage' => Illuminate\Support\Facades\Storage::class,
+<<<<<<< HEAD
         'Str' => Illuminate\Support\Str::class,
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,

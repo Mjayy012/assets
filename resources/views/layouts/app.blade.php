@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
     {{-- @laravelPWA --}}
     <!-- CSRF Token -->
 
@@ -45,11 +46,40 @@
 
     <!-- Styles -->
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
+=======
+    
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{{url('images/aaa.png')}}">
+    <link rel="icon" href="{{url('images/aaa.png')}}">
+
+    <!-- custom Css-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        
+        #app {
+            height: 100%;
+        }
+    </style>
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 </head>
 <body>
     <div id="app">
         @yield('content')
     </div>
+<<<<<<< HEAD
 
     {{-- <script src="{{asset('login_css/js/jquery-3.3.1.min.js')}}"></script>
     <script src="{{asset('login_css/js/popper.min.jss')}}"></script>
@@ -78,5 +108,7 @@
             document.getElementById('loader').style.display = 'none';
         });
     </script>
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 </body>
 </html>

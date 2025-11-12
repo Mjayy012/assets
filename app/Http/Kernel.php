@@ -14,13 +14,20 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+<<<<<<< HEAD
         // \App\Http\Middleware\TrustHosts::class,
         \App\Http\Middleware\TrustProxies::class,
         \Fruitcake\Cors\HandleCors::class,
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         \App\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+<<<<<<< HEAD
+=======
+        \App\Http\Middleware\TrustProxies::class,
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     ];
 
     /**
@@ -41,7 +48,11 @@ class Kernel extends HttpKernel
 
         'api' => [
             'throttle:60,1',
+<<<<<<< HEAD
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+=======
+            'bindings',
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         ],
     ];
 
@@ -59,9 +70,31 @@ class Kernel extends HttpKernel
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+<<<<<<< HEAD
         'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
     ];
+<<<<<<< HEAD
+=======
+
+    /**
+     * The priority-sorted list of middleware.
+     *
+     * This forces non-global middleware to always be in the given order.
+     *
+     * @var array
+     */
+    protected $middlewarePriority = [
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \App\Http\Middleware\Authenticate::class,
+        \Illuminate\Session\Middleware\AuthenticateSession::class,
+        \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        \Illuminate\Auth\Middleware\Authorize::class,
+    ];
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 }

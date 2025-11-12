@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Route;
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 use Monolog\Handler\NullHandler;
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
 
@@ -37,7 +40,11 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
+<<<<<<< HEAD
             'channels' => ['single'],
+=======
+            'channels' => ['daily'],
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
             'ignore_exceptions' => false,
         ],
 
@@ -90,6 +97,7 @@ return [
             'driver' => 'errorlog',
             'level' => 'debug',
         ],
+<<<<<<< HEAD
 
         'null' => [
             'driver' => 'monolog',
@@ -99,6 +107,8 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+=======
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     ],
 
 ];

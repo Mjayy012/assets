@@ -73,9 +73,16 @@
     }
     
     .system-title {
+<<<<<<< HEAD
         font-size: 36px;
         font-weight: 600;
         margin-bottom: 15px;
+=======
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         color: #333;
     }
     
@@ -101,7 +108,11 @@
         width: 100%;
         padding: 15px 20px;
         border: 2px solid #e0e0e0;
+<<<<<<< HEAD
         border-radius: 8px;
+=======
+        border-radius: 25px;
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         margin-bottom: 25px;
         font-size: 14px;
         transition: border-color 0.3s;
@@ -150,6 +161,10 @@
         height: 120px;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 50%;
+<<<<<<< HEAD
+=======
+        margin-bottom: 30px;
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         display: flex;
         align-items: center;
         justify-content: center;
@@ -159,6 +174,7 @@
     }
     
     .right-title {
+<<<<<<< HEAD
         font-size: 32px;
         font-weight: 700;
         letter-spacing: 2px;
@@ -176,6 +192,25 @@
         margin-bottom: 15px;
         font-weight: 300 !important;
         text-align: center;
+=======
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 35px;
+        letter-spacing: 2px;
+    }
+    
+    .right-subtitle {
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: -30px;
+    }
+    
+    .tagline {
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.6;
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
     }
     
     @media (max-width: 768px) {
@@ -214,7 +249,11 @@
     
     <div class="otp-left">
         <div class="logo-placeholder">
+<<<<<<< HEAD
             <img src="{{asset('assets/images/marsu-logo.png')}}" alt="MARSU Logo" height="120">
+=======
+            <img src="{{asset('assets/images/marsu-logo.png')}}" alt="MARSU Logo" height="100">
+>>>>>>> 289fb23019f049e78edf03069ee7b1b551cc9399
         </div>
         
         <h1 class="system-title">Verify OTP</h1>
